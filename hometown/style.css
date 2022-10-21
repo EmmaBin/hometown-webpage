@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(#d8e2dc, #ffc8dd);
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    margin:0;
+
+}
+
+#header{
+    height:14rem;
+    background-image: url(https://www.azamara.com/sites/default/files/heros/dalian-china-1800x1000.jpg);
+    background-size: cover;
+    margin-top: 0; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    /* 为什么上面有一片空白 */
+}
+
+.header-title,
+.header-intro{
+    background-color: #ffc8dd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-shadow: 2px 2px black;
+}
+.activity-img{
+    width:200px;
+    border-radius:50%;
+}
+
+.all-img:hover{
+    transform: translateY(-10px);
+}
+.activities{
+    display: flex;
+    justify-content: space-between;
+    margin:40px 20px;
+    padding:5px 10px;
+}
+
+.activities > div {
+    margin: 10px;
+}
+
+.landmark{
+    background-color: #fefae0;
+
+    padding: 40px;
+    
+}
+
+.landmark-img{
+    height:250px;
+    width: 260px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.landmark-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.canvas{
+    display: flex;
+    justify-content: center;
+    background-color: #bde0fe;
+    max-height: fit-content;
+    max-width: fit-content;
+    margin: 20px auto;
+    padding:20px;
+    border-radius: 25px;
+}
